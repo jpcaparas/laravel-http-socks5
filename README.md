@@ -73,6 +73,12 @@ $response = Http::socks5()
     ->get('http://example.com');
 ```
 
+## Tests
+
+```bash
+composer test
+```
+
 ## Trying it out
 
 You can experiment with the package using Laravel Tinker. First, run:
