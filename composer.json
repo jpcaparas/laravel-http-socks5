@@ -15,7 +15,7 @@
         "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
-        "larastan/larastan": "^3.0",
+        "larastan/larastan": "*",
         "laravel/pint": "^1.19",
         "orchestra/testbench": "*",
         "phpunit/phpunit": "^9.0|^10.0"
