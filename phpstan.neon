@@ -1,0 +1,9 @@
+includes:
+    - ./vendor/larastan/larastan/extension.neon
+
+parameters:
+    paths:
+        - src/
+
+    # Level 10 is the highest level
+    level: 5
