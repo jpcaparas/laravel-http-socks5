@@ -15,8 +15,9 @@
         "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0",
-        "orchestra/testbench": "^7.50"
+        "laravel/pint": "^1.19",
+        "orchestra/testbench": "^7.50",
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "psr-4": {
@@ -31,6 +32,9 @@
     "scripts":{
         "test": "phpunit",
         "tinker": "testbench tinker"
+    },
+    "config": {
+        "sort-packages": true
     },
     "extra": {
         "laravel": {
