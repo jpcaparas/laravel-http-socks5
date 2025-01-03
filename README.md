@@ -14,6 +14,17 @@ composer require jpcaparas/laravel-http-socks5
 
 ## Usage
 
+### Registering the Service Provider
+
+Add the service provider to your `config/app.php`:
+
+```php
+'providers' => [
+    // ...
+    JPCaparas\Socks5Proxy\Socks5ProxyServiceProvider::class,
+],
+```
+
 ### Setting up the SOCKS5 Proxy
 
 To use the SOCKS5 proxy, you can utilize the fluent interface:
