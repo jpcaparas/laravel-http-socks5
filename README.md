@@ -1,5 +1,7 @@
 # Laravel HTTP client macro for SOCKS5 proxying
 
+![Tests](https://github.com/jpcaparas/laravel-http-socks5/actions/workflows/tests.yml/badge.svg)
+
 This package extends the Laravel HTTP service to allow for easy, parameterised SOCKS5 proxying
 
 ## Installation
