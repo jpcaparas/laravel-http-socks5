@@ -1,6 +1,6 @@
 <?php
 
-namespace JpCaparas\LaravelHttpSocks5\Tests\Integration;
+namespace JPCaparas\LaravelHttpSocks5\Tests\Integration;
 
 use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Http;
@@ -19,7 +19,7 @@ class Socks5ClientTest extends TestCase
     protected function getPackageProviders($app): array
     {
         return [
-            'JpCaparas\LaravelHttpSocks5\Http\Socks5ServiceProvider',
+            'JPCaparas\LaravelHttpSocks5\Http\Socks5ServiceProvider',
         ];
     }
 

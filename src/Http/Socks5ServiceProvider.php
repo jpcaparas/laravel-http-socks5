@@ -1,6 +1,6 @@
 <?php
 
-namespace JpCaparas\LaravelHttpSocks5\Http;
+namespace JPCaparas\LaravelHttpSocks5\Http;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Http;

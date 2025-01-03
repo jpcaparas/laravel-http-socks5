@@ -1,6 +1,6 @@
 <?php
 
-namespace JpCaparas\LaravelHttpSocks5\Http;
+namespace JPCaparas\LaravelHttpSocks5\Http;
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Facades\Http;

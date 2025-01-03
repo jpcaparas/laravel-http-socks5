@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "JpCaparas\\LaravelHttpSocks5\\": "src/"
+            "JPCaparas\\LaravelHttpSocks5\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JpCaparas\\LaravelHttpSocks5\\Tests\\": "tests/"
+            "JPCaparas\\LaravelHttpSocks5\\Tests\\": "tests/"
         }
     },
     "scripts":{
@@ -35,7 +35,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JpCaparas\\LaravelHttpSocks5\\Http\\Socks5ServiceProvider"
+                "JPCaparas\\LaravelHttpSocks5\\Http\\Socks5ServiceProvider"
             ]
         }
     }
