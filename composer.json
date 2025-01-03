@@ -30,6 +30,7 @@
         }
     },
     "scripts":{
+        "format": "pint",
         "test": "phpunit",
         "tinker": "testbench tinker"
     },

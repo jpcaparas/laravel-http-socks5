@@ -23,10 +23,10 @@ class Socks5ClientTest extends TestCase
         ];
     }
 
-    public function testSocks5ProxyGet(): void
+    public function test_socks5_proxy_get(): void
     {
         Http::fake([
-            'google.com/*' => Http::response('OK', 200)
+            'google.com/*' => Http::response('OK', 200),
         ]);
 
         $client = Http::socks5()
@@ -46,10 +46,10 @@ class Socks5ClientTest extends TestCase
         $this->assertEquals('OK', $response->body());
     }
 
-    public function testSocks5ProxyPost(): void
+    public function test_socks5_proxy_post(): void
     {
         Http::fake([
-            'api.example.com/*' => Http::response(['status' => 'success'], 201)
+            'api.example.com/*' => Http::response(['status' => 'success'], 201),
         ]);
 
         $client = Http::socks5()
@@ -68,10 +68,10 @@ class Socks5ClientTest extends TestCase
         $this->assertEquals(['status' => 'success'], $response->json());
     }
 
-    public function testSocks5ProxyError(): void
+    public function test_socks5_proxy_error(): void
     {
         Http::fake([
-            '*' => Http::response(null, 500)
+            '*' => Http::response(null, 500),
         ]);
 
         $response = Http::socks5()
